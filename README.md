@@ -1,2 +1,2 @@
 # Treinos-Avulsos
-Exercicios e problemas aleatórios.
+Exercicios e problemas aleatórios que eu fiz para estudar.
