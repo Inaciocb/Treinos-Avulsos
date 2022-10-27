@@ -3,12 +3,17 @@
 int main()
 {
     int i=1, j=0, k=1, l=0, linha, coluna;
-    
-    printf("Iforme as coordenadas da torre:\nCoordenada das linhas(1 a 8): ");
-    scanf("%d", &linha);
-    printf("Informe a coordenada das colunas: ");
-    scanf("%d", &coluna);
-    
+    do{  
+        printf("Informe as coordenadas da torre:\nCoordenada das linhas(1 a 8): ");
+        scanf("%d", &linha);
+        printf("Informe a coordenada das colunas: ");
+        scanf("%d", &coluna);
+        if(linha <= 0 || linha > 8 || coluna <=0 || coluna > 8)
+        {
+            printf("\nDigite valores válidos para linha e coluna (1 até 8).\n\n");
+        }
+    }while(linha <= 0 || linha > 8 || coluna <=0 || coluna > 8);
+
     for(j=0; j<9; j++)
     {
         if(j==0)
@@ -39,7 +44,10 @@ int main()
             }
         }
     }       
-        
+    if(j=9)
+    {
+        printf("\n\n");
+    }
     return 0;
 }
 
