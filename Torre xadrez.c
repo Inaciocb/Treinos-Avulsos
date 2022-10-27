@@ -1,18 +1,8 @@
 #include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
 
 int main()
 {
-    char Linha[10] = {"-"};
-    int linha, coluna;
-    int i=1, j=0, k=1, l=0;
-    
-    for(i=0; i<10; i++)
-    {
-        Linha[i] = '-';
-    }
-    i=0;
+    int i=1, j=0, k=1, l=0, linha, coluna;
     
     printf("Iforme as coordenadas da torre:\nCoordenada das linhas(1 a 8): ");
     scanf("%d", &linha);
@@ -45,7 +35,7 @@ int main()
                 printf("%c", '#');
             }else if(j!=0 && j!=linha)
             {
-                printf("%c", Linha[i]);
+                printf("%c", '-');
             }
         }
     }       
