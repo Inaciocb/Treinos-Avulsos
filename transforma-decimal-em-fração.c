@@ -4,10 +4,10 @@
 int main()
 {
     int i=2;
-    float y =;
-    float j = y;
+    double y;
+    double j = y;
     printf("Digite um número não inteiro: ");
-    scanf("%f", &y);
+    scanf("%lf", &y);
     
     while(fmod(j, 10) != 0)
     {
@@ -26,7 +26,7 @@ int main()
         i = i/10;
     }
     
-    printf("A fração mais simplificada que resulta nesse decimal é: %.f/%d", j, i);
+    printf("A fração mais simplificada que resulta nesse decimal é: %.lf/%d", j, i);
     
     return 0;
 }
