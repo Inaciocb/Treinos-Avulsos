@@ -5,9 +5,9 @@ int main()
 {
     int i=2;
     double y;
-    double j = y;
     printf("Digite um número não inteiro: ");
     scanf("%lf", &y);
+    double j = y;
     
     while(fmod(j, 10) != 0)
     {
