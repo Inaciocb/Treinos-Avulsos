@@ -18,8 +18,8 @@ int main()
     
     log2(x) = log10(x) / log10(2)
 
-    in above, there is shown how to transform a logarithm's base by using it's properties 
-    ( logx(B) = logn(B)/ logn(x) ). 
+    in above, there is shown how to transform a logarithm's base by using its properties: 
+    logx(B) = logn(B)/ logn(x)  
 
     */
 
