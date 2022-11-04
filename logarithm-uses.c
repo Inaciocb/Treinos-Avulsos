@@ -4,7 +4,6 @@
 int main()
 {
     /*
-    
     let d be our answer for input number n
     then n(1/2) = d 
     
@@ -20,7 +19,6 @@ int main()
 
     in above, there is shown how to transform a logarithm's base by using its properties: 
     logx(B) = logn(B)/ logn(x)  
-
     */
 
     double i=2.0,y ,z;
