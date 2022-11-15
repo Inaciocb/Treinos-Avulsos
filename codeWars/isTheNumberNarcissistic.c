@@ -3,7 +3,7 @@
 #include <stdbool.h>
 #include <math.h>
 
-int AmDigits(int x)  
+int amountOfDigits(int x)  
 {  
    int i = 0;    
    while (x != 0)  
